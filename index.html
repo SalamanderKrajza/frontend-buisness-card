@@ -9,27 +9,38 @@
   </head>
   <body>
     <main class="business-card">
-      <img src="avatar.png" class="business-card__image" alt="Twarz postaci" />
+      <img src="148.png" class="business-card__image" alt="Twarz postaci" onclick="nothingSpecial()"/>
       <section class="business-card-description">
         <header class="business-card-description__heading">
-          <h1 class="business-card-decription__heading-1">Imię nazwisko</h1>
-          <p class="business-card-decription__heading-2">frontend developer</p>
+          <h1 class="business-card-decription__heading-1">Aleksander Krysa</h1>
+          <p class="business-card-decription__heading-2">
+            junior python & frontend developer
+          </p>
         </header>
         <p class="business-card-decription__content">
-          Programista z
-          <span class="special-orange">kilkunastoletnim doświadczeniem</span>,
-          fotograf, operator drona, właściciel Sokoła Millennium (na razie tylko
-          z Lego),
-          <span class="special-orange">prelegent i szkoleniowiec</span>.
-          Uwielbia eksperymentować z nowymi technologiami, w swojej twórczości
-          ocierając się o sztukę.
+          Z <b class="special">wykształcenia:</b> Informatyk, Automatyk i
+          robotyk, Projektant UX i Analityk internetowy; z
+          <b class="special">doświadczenia</b> analityk w firmach
+          produkcyjnych, programista VBA; aktualnie w trakcie przechodzenia do
+          branży IT - <b class="special">wdrażający się</b> programista Python
+          oraz Frontend Developer.
         </p>
         <p class="business-card-decription__content">
-          W sieci: <span class="special-red">Facebook</span>,
-          <span class="special-red">GitHub</span>,
-          <span class="special-red">Instagram</span>.
+          <a href="https://github.com/SalamanderKrajza">
+            <img
+              src="github-icon.png"
+              alt="github icon"
+              class="github-icon"
+            /> </a>
         </p>
       </section>
     </main>
+    <script>
+        function nothingSpecial(){
+            myimage = document.querySelector('.business-card__image')
+            myimage.src="148-2.png"
+            setTimeout(function(){ myimage.src="148.png" }, 1000);
+        }
+    </script>
   </body>
 </html>

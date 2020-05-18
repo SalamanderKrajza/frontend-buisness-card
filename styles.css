@@ -18,6 +18,12 @@ body {
   font-style: normal;
   font-weight: normal;
   color: #000000;
+  background: radial-gradient(
+    circle,
+    rgba(63, 47, 93, 1) 0%,
+    rgba(40, 29, 59, 1) 36%,
+    rgba(16, 0, 36, 1) 93%
+  );
 }
 
 .business-card2,
@@ -31,9 +37,9 @@ body {
   padding: 32px;
 }
 
-.business-card2{
-    background-image: url(wizytowka.png);
-  }
+.business-card2 {
+  background-image: url(wizytowka.png);
+}
 
 .business-card-decription__heading-1 {
   font-style: normal;
@@ -43,8 +49,8 @@ body {
   margin: 0px;
 }
 
-.business-card-description__heading{
-    margin: 0px 0px 29px 0px; /* in figma space from <header> to <p> was 24px */
+.business-card-description__heading {
+  margin: 0px 0px 29px 0px; /* in figma space from <header> to <p> was 24px */
 }
 
 .business-card-decription__heading-2 {
@@ -57,11 +63,10 @@ body {
   margin: 0px;
 }
 
-.business-card-decription__content{
-    font-size: 16px;
-    line-height: 137%;
-    margin-bottom: 22px; /* in figma both parts are same text so there is no margin */
-
+.business-card-decription__content {
+  font-size: 16px;
+  line-height: 137%;
+  margin-bottom: 22px; /* in figma both parts are same text so there is no margin */
 }
 
 .business-card__image {
@@ -75,10 +80,25 @@ body {
   margin-left: 32px;
 }
 
-.special-orange {
-    color: #ED6D05;
+.special {
+  color: #2c2141;
 }
 
-.special-red {
-    color: #E20613;
+.github-icon {
+  height: 30px;
+  width: 30px;
+  background-color: #2c2141;
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
 }
+
+.github-icon:hover {
+    height: 31px;
+    width: 31px;
+    background-color: #dd3489;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+  }
+  

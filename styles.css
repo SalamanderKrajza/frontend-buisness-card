@@ -8,37 +8,77 @@ html {
   box-sizing: inherit;
 }
 
-*{
-    background-color: rgba(255, 0, 0, 0.2);
-}
-body{
-    background-color: #2C2141;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-family: Arial;
-}
-
-.business-card{
-    width: 624px;
-    height: 320px;
-    background: #F8F8F8;
-    border-radius: 16px;
-    display: flex;
-    align-items: flex-start;
-    padding: 32px;
-    ;
+body {
+  background-color: #2c2141;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
 }
 
-.business-card__image{
-    width: 148px;
-    height: 148px;
-    border-radius: 74px;
-    background-color: gray;
+.business-card2,
+.business-card {
+  width: 624px;
+  height: 320px;
+  background: #f8f8f8;
+  border-radius: 16px;
+  display: flex;
+  align-items: flex-start;
+  padding: 32px;
 }
 
-.business-card-description{
-    margin-left: 32px;
+.business-card2{
+    background-image: url(wizytowka.png);
+  }
+
+.business-card-decription__heading-1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 41px;
+  margin: 0px;
 }
 
+.business-card-description__heading{
+    margin: 0px 0px 29px 0px; /* in figma space from <header> to <p> was 24px */
+}
+
+.business-card-decription__heading-2 {
+  font-family: Arial;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 15px; /* in figma was 21px */
+  color: #545454;
+  margin: 0px;
+}
+
+.business-card-decription__content{
+    font-size: 16px;
+    line-height: 137%;
+    margin-bottom: 22px; /* in figma both parts are same text so there is no margin */
+
+}
+
+.business-card__image {
+  width: 148px;
+  height: 148px;
+  border-radius: 74px;
+  flex-shrink: 0;
+}
+
+.business-card-description {
+  margin-left: 32px;
+}
+
+.special-orange {
+    color: #ED6D05;
+}
+
+.special-red {
+    color: #E20613;
+}

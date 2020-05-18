@@ -26,7 +26,6 @@ body {
   );
 }
 
-.business-card2,
 .business-card {
   width: 624px;
   height: 320px;
@@ -35,10 +34,6 @@ body {
   display: flex;
   align-items: flex-start;
   padding: 32px;
-}
-
-.business-card2 {
-  background-image: url(wizytowka.png);
 }
 
 .business-card-decription__heading-1 {

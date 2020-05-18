@@ -7,3 +7,38 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+*{
+    background-color: rgba(255, 0, 0, 0.2);
+}
+body{
+    background-color: #2C2141;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial;
+}
+
+.business-card{
+    width: 624px;
+    height: 320px;
+    background: #F8F8F8;
+    border-radius: 16px;
+    display: flex;
+    align-items: flex-start;
+    padding: 32px;
+    ;
+}
+
+.business-card__image{
+    width: 148px;
+    height: 148px;
+    border-radius: 74px;
+    background-color: gray;
+}
+
+.business-card-description{
+    margin-left: 32px;
+}
+

@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
   </head>
   <body>
     <main class="business-card">
-      <img src="148.png" class="business-card__image" alt="Zdjęcie Aleksandra" onclick="nothingSpecial()"/>
+      <img src="img/148.png" class="business-card__image" alt="Zdjęcie Aleksandra" onclick="nothingSpecial()"/>
       <section class="business-card-description">
         <header class="business-card-description__heading">
           <h1 class="business-card-decription__heading-1">Aleksander Krysa</h1>
@@ -28,19 +28,14 @@
         <p class="business-card-decription__content">
           <a href="https://github.com/SalamanderKrajza">
             <img
-              src="github-icon.png"
+              src="img/github-icon.png"
               alt="github icon"
               class="github-icon"
             /> </a>
         </p>
       </section>
     </main>
-    <script>
-        function nothingSpecial(){
-            myimage = document.querySelector('.business-card__image')
-            myimage.src="148-2.png"
-            setTimeout(function(){ myimage.src="148.png" }, 1000);
-        }
+    <script src="js/nothingSpecial.js"></script>>
     </script>
   </body>
 </html>
